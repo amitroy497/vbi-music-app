@@ -1,0 +1,33 @@
+body {
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+.homeLink {
+  position: fixed;
+  color: #fff;
+  top: 30px;
+  left: 30px;
+  font-size: 35px;
+  text-decoration: none;
+  display: flex;
+  z-index: 2;
+}
+.homeLink .MuiSvgIcon-root {
+  font-size: 40px;
+}
+.homeLink:hover,
+.homeLink:hover .MuiSvgIcon-root {
+  color: red;
+}
+.songMenuWrapper {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  font-size: 25px;
+  text-decoration: none;
+  z-index: 2;
+  margin: auto;
+  transform: translate(-50%, 0);
+  display: flex;
+}

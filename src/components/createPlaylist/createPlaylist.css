@@ -1,0 +1,81 @@
+.createPlaylistPopUpWrapper {
+  background: #000;
+  height: 100%;
+  position: relative;
+}
+.createPlaylistPopUpSection {
+  height: 100%;
+  overflow: hidden;
+}
+.createPlaylistPopUpSection table {
+  overflow: hidden;
+  color: #fff;
+  border-width: 5px;
+  border-style: dotted solid double dashed;
+  padding: 10px;
+  border-color: #fff;
+  margin: 80px 10px 10px 10px;
+  height: calc(100% - 160px);
+  display: block;
+}
+.createPlaylistPopUpSection thead {
+  display: block;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  margin-bottom: 10px;
+}
+.createPlaylistPopUpSection thead tr {
+  display: flex;
+  font-weight: bold;
+}
+.popUpSongName {
+  width: 80%;
+}
+.popUpCheck {
+  width: 20%;
+  text-align: center;
+  display: block;
+}
+.createPlaylistPopUpSection table tbody {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 50px);
+  max-height: 100%;
+  display: block;
+}
+.createPlaylistPopUpSection table tbody tr {
+  display: flex;
+  width: calc(100% - 5px);
+  padding: 10px;
+}
+.createPlaylistPopUpTitle {
+  color: yellow;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  font-size: 25px;
+  top: 25px;
+}
+.addToPlaylist {
+  color: yellow;
+}
+.addToPlaylist .MuiSvgIcon-root {
+  font-size: 45px;
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+  z-index: 2;
+  cursor: pointer;
+}
+.addToPlaylist .MuiSvgIcon-root:hover {
+  color: red;
+}
+.addToPlaylist img {
+  position: absolute;
+  bottom: -56px;
+  right: 26px;
+  z-index: 1;
+}
